@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compra los mejores productos en Siman: tecnología, moda, hogar, belleza, y más.">
+  <title>Productos - Siman</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger rounded-3 p-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-fluid" src="img/siman.jpg" alt="Siman" height="40px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-underline ms-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white " href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white active" href="producto.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="oferta.html">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mb-3" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+        <form class="d-flex mx-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+          <button class="btn btn-outline-light" type="submit" aria-label="Buscar productos">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+
+        <!-- Carrito -->
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item">
+            <a class="nav-link text-white position-relative" href="#">
+              <i class="bi bi-cart" style="font-size: 1.5rem;"></i>
+              <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-white text-danger">
+                0
+                <span class="visually-hidden">productos en el carrito</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container my-5">
+    <section>
+      <header class="mb-4">
+        <h2 class="border-start border-4 border-danger ps-3">Productos</h2>
+      </header>
+      
+      <!-- Filtrado de productos -->
+      <nav class="d-flex flex-wrap gap-3 mb-4">
+        <a href="#" class="btn btn-outline-danger">Electrónica</a>
+        <a href="#" class="btn btn-outline-danger">Moda Hombre</a>
+        <a href="#" class="btn btn-outline-danger">Moda Mujer</a>
+        <a href="#" class="btn btn-outline-danger">Hogar</a>
+        <a href="#" class="btn btn-outline-danger">Belleza</a>
+      </nav>
+      
+      <!-- Productos destacados -->
+      <section class="productos-destacados">
+        <h3 class="border-start border-4 border-primary ps-3">Productos Destacados</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <article class="col-md-4">
+            <div class="card shadow-sm border-light">
+              <img src="img/producto3.png" class="card-img-top img-fluid" alt="Smart TV 50" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Samsung UE50NU7092 - SMARTTV de 50PG  - $500</h5>
+                <p class="card-text">Disfruta de tus películas y series favoritas con esta increíble Smart TV.</p>
+                <a href="#" class="add-to-cart btn btn-primary w-100">Agregar al carrito</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card shadow-sm border-light">
+              <img src="img/producto5.png" class="card-img-top img-fluid" alt="Tenis Nike Air" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Nike Air - $89.99</h5>
+                <p class="card-text">Comodidad y estilo con estos tenis Nike Air.</p>
+                <a href="#" class="add-to-cart btn btn-primary w-100">Agregar al carrito</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card shadow-sm border-light">
+              <img src="img/producto6.png" class="card-img-top img-fluid" alt="Perfume Dior" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Perfume Dior - $59.99</h5>
+                <p class="card-text">Un toque de elegancia con el perfume Dior.</p>
+                <a href="#" class="add-to-cart btn btn-primary w-100">Agregar al carrito</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>SIMAN</h5>
+          <p>Derechos Reservados Denys Hernandez©.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Términos y condiciones</a></li>
+            <li><a href="#" class="text-light">Política de privacidad</a></li>
+            <li><a href="#" class="text-light">Ayuda</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Redes Sociales</h5>
+          <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

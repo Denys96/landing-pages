@@ -1,0 +1,81 @@
+/* estilos.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .img-ajustada {
+    width: 100%;
+    height: 400px;
+    object-fit: initial!important;
+  }
+  
+  .promo-banner img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .promo-banner img:hover {
+    transform: scale(1.02);
+  }
+  
+  .product-card {
+    transition: transform 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-inner img {
+    object-fit: cover;
+    height: 350px;
+  }
+  
+  .btn-outline-secondary {
+    border-radius: 20px;
+  }
+  
+  .btn-primary {
+    border-radius: 20px;
+    background-color: #d00000;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a10000;
+  }
+  
+  h3 {
+    font-weight: bold;
+    border-left: 5px solid #d00000;
+    padding-left: 10px;
+    margin-bottom: 1.5rem;
+    color: #222;
+  }
