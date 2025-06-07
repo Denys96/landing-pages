@@ -1,4 +1,4 @@
-## 🚀 Proyecto #3: Landing Page Responsiva
+## 🚀 Proyecto: Landing Page Responsiva
 
 Este proyecto consiste en una **landing page estática y moderna**, creada con HTML5 y CSS3. Tiene un diseño limpio, estructura organizada y secciones informativas ideales para representar una marca o empresa que ofrece servicios.
 
@@ -13,3 +13,11 @@ Este proyecto consiste en una **landing page estática y moderna**, creada con H
 [🔗 Ver sitio en Netlify](https://landing-pages-fsj28.netlify.app/)
 
 ### 📸 Captura del proyecto:
+<p align="center">
+  <img src="848shots_so.png" alt="Inicio" width="300"/>
+  <img src="62shots_so.png" alt="Sección de Productos" width="300"/>
+</p>
+<p align="center">
+  <img src="558shots_so.png" alt="Página de inicio" width="300"/>
+  <img src="961shots_so.png" alt="Sección de Productos" width="300"/>
+</p>
